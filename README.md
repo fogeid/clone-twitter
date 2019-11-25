@@ -8,3 +8,7 @@
 </ul>
 
 ## See the result
+
+
+## License
+[MIT License](https://github.com/fogeid/clone-twitter/blob/master/LICENSE)
