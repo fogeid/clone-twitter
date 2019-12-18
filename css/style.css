@@ -16,6 +16,8 @@ body {
 .main-header {
     height: 46px;
     background: #212121;
+    position: relative;
+    z-index: 1;
 }
 
 .main-header .container {
@@ -81,8 +83,96 @@ body {
     font-weight: bold;
     font-size: 14px;
     color: #fff;
-
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
+
+/* BANNER */
+.banner {
+    width: 100%;
+    height: 380px;
+    background: url("/img/banner3.jpg") no-repeat center/100%;
+}
+
+/* BAR */
+.bar {
+    height: 59px;
+    background: #212121;
+}
+
+.bar .container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.bar .container ul {
+    padding-left: 285px;
+    display: flex;
+    align-items: center;
+}
+
+.bar .container ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    position: relative;
+    height: 100%;
+}
+
+.bar .container ul li.active::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #32fa64;    
+}
+
+.bar .container ul li span {
+    color: #667580;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.bar .container ul li strong {
+    color: #667580;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+.bar .container ul li.active strong {
+    color: #32fa64;
+}
+
+.bar .container .actions {
+    display: flex;
+    align-items: center;
+}
+
+.bar .container .actions button {
+    width: 90px;
+    height: 34px;
+    background: none;
+    border: 2px solid #3bb9e3;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #3bb9e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.bar .container .actions img {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
