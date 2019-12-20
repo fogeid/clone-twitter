@@ -178,6 +178,8 @@ body {
 }
 
 /* WRAPPER CONTENT */
+
+/* PROFILE */
 .wrapper-content {
     display: flex;
 }
@@ -279,4 +281,14 @@ body {
     background: #444444;
     margin: 0 5px 5px 0;
     flex-grow: 1;
+}
+
+/* TIMELINE */
+.wrapper-content .timeline {
+    flex: 1;
+}
+
+/* WIDGETS */
+.wrapper-content .widgets {
+    width: 290px;
 }
