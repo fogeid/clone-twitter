@@ -3,6 +3,7 @@ body {
     font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
+    height: 1000px;
 }
 
 .container {
@@ -176,3 +177,106 @@ body {
     cursor: pointer;
 }
 
+/* WRAPPER CONTENT */
+.wrapper-content {
+    display: flex;
+}
+
+.wrapper-content .profile {
+    width: 260px;
+}
+
+.wrapper-content .profile .avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-top: -130px;
+}
+
+.wrapper-content .profile h1 {
+    font-size: 21px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.wrapper-content .profile span {
+    font-size: 14px;
+    color: #444444;
+}
+
+.wrapper-content .profile p {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.wrapper-content .profile .url {
+    color: #32fa64;
+    cursor: pointer;
+}
+
+.wrapper-content .profile ul.list-profile {
+    margin-top: 20px;    
+}
+
+.wrapper-content .profile ul.list-profile li {
+    font-size: 14px;
+    color: #667580;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-content .profile ul.list-profile li + li {
+    margin-top: 5px;
+}
+
+.wrapper-content .profile ul.list-profile li img {
+    margin-right: 10px;
+}
+
+.wrapper-content .profile .widget {
+    margin-top: 30px;    
+}
+
+.wrapper-content .profile .widget strong {
+    font-size: 14px;
+    font-weight: normal;
+    color: #32fa64;
+    display: flex;
+    align-items: center;  
+}
+
+.wrapper-content .profile .widget strong img {
+    margin-right: 5px;
+}
+
+.wrapper-content .profile .followers ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.wrapper-content .profile .followers ul li {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #444444;
+    margin: 0 5px 5px 0;
+    flex-grow: 1;
+}
+
+.wrapper-content .profile .images ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.wrapper-content .profile .images ul li {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    background: #444444;
+    margin: 0 5px 5px 0;
+    flex-grow: 1;
+}
